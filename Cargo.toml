@@ -9,4 +9,3 @@ git2 = "0.20"
 
 [[bin]]
 name = "playground"
-path = "main.rs"
