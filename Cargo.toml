@@ -6,6 +6,11 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0"
 git2 = "0.20"
+dictionary = { path = "./dictionary/" }
+
+[workspace]
+members = ["dictionary"]
+resolver = "2"
 
 [[bin]]
 name = "playground"

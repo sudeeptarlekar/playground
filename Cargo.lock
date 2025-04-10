@@ -26,6 +26,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "dictionary"
+version = "0.1.0"
+
+[[package]]
 name = "displaydoc"
 version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -301,6 +305,7 @@ name = "playground"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "dictionary",
  "git2",
 ]
 
